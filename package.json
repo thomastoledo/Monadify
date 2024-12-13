@@ -1,0 +1,30 @@
+{
+  "devDependencies": {
+    "typescript": "^5.7.2"
+  },
+  "name": "monadify",
+  "version": "0.0.1",
+  "keywords": [
+    "functional programming",
+    "monad",
+    "js",
+    "javascript",
+    "utility",
+    "typescript"
+  ],
+  "description": "Monadify is a micro-library to allow the use of Monads in your TS project",
+  "main": "dist/monadify.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thomastoledo/Monadify.git"
+  },
+  "author": "Thomas TOLEDO",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thomastoledo/Monadify/issues"
+  },
+  "homepage": "https://github.com/thomastoledo/Monadify#readme"
+}
