@@ -9,7 +9,7 @@
       "skipLibCheck": true                    // Ignore la vérification des types des fichiers de bibliothèque
     },
     "include": [
-      "monadify.ts"                           // Inclut ton fichier TypeScript
+      "pelouse.ts"                           // Inclut ton fichier TypeScript
     ],
     "exclude": [
       "node_modules"                          // Exclut le dossier node_modules

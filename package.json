@@ -2,7 +2,7 @@
   "devDependencies": {
     "typescript": "^5.7.2"
   },
-  "name": "monadify",
+  "name": "pelouse",
   "version": "0.0.1",
   "keywords": [
     "functional programming",
@@ -12,19 +12,19 @@
     "utility",
     "typescript"
   ],
-  "description": "Monadify is a micro-library to allow the use of Monads in your TS project",
-  "main": "dist/monadify.js",
+  "description": "Pelouse is a micro-library to allow the use of Monads in your TS project",
+  "main": "dist/pelouse.js",
   "scripts": {
     "build": "tsc"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/thomastoledo/Monadify.git"
+    "url": "git+https://github.com/thomastoledo/Pelouse.git"
   },
   "author": "Thomas TOLEDO",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/thomastoledo/Monadify/issues"
+    "url": "https://github.com/thomastoledo/Pelouse/issues"
   },
-  "homepage": "https://github.com/thomastoledo/Monadify#readme"
+  "homepage": "https://github.com/thomastoledo/Pelouse#readme"
 }

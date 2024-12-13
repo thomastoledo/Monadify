@@ -1,6 +1,6 @@
-# Monadify - Library for Working with Optional Values in TypeScript
+# Pelouse - Library for Working with Optional Values in TypeScript
 
-`monadify` is a TypeScript library that provides a `Maybe` monad, a powerful abstraction for working with optional or nullable values. This library helps you avoid common pitfalls when dealing with `null` or `undefined` values by offering safe, functional ways to handle them. With `Maybe`, you can map, chain, and transform values without worrying about runtime errors due to null or undefined.
+`pelouse` is a TypeScript library that provides a `Maybe` monad, a powerful abstraction for working with optional or nullable values. This library helps you avoid common pitfalls when dealing with `null` or `undefined` values by offering safe, functional ways to handle them. With `Maybe`, you can map, chain, and transform values without worrying about runtime errors due to null or undefined.
 
 ## Features
 
@@ -15,7 +15,7 @@
 You can install the library using npm:
 
 ```bash
-npm install monadify
+npm install pelouse
 ```
 
 ## API
@@ -63,7 +63,7 @@ The primary use case of `Maybe` is to provide a safe and functional way to deal 
 #### Example
 
 ```typescript
-import { maybe } from 'monadify';
+import { maybe } from 'pelouse';
 
 const value: string | null = getValueFromApi();
 
@@ -84,7 +84,7 @@ You can chain multiple operations that might return nullable values using `flatM
 #### Example
 
 ```typescript
-import { maybe } from 'monadify';
+import { maybe } from 'pelouse';
 
 const findUser = (id: number) => id === 1 ? maybe({ name: 'John' }) : maybe(null);
 const getUserProfile = (user: { name: string }) => user.name === 'John' ? maybe({ profile: 'Developer' }) : maybe(null);
@@ -106,7 +106,7 @@ Use `forEach` to execute side effects on the contained value when it's present, 
 #### Example
 
 ```typescript
-import { maybe } from 'monadify';
+import { maybe } from 'pelouse';
 
 const value: string | null = getValueFromApi();
 
@@ -120,7 +120,7 @@ maybe(value).forEach(v => console.log(v)); // Logs the value if present, nothing
 #### Example
 
 ```typescript
-import { maybe } from 'monadify';
+import { maybe } from 'pelouse';
 
 const value: number | null = getValueFromApi();
 
@@ -136,4 +136,4 @@ console.log(result); // 42 if value was null
 
 ## Conclusion
 
-The `monadify` library provides a clean and functional way to handle optional values in TypeScript. By using the `Maybe` monad, you can eliminate common issues related to `null` and `undefined`, making your code more robust and easier to maintain. Whether you're working with data from APIs or handling optional user inputs, `monadify` helps you handle nullable values with elegance.
+The `pelouse` library provides a clean and functional way to handle optional values in TypeScript. By using the `Maybe` monad, you can eliminate common issues related to `null` and `undefined`, making your code more robust and easier to maintain. Whether you're working with data from APIs or handling optional user inputs, `pelouse` helps you handle nullable values with elegance.
