@@ -3,7 +3,7 @@
     "typescript": "^5.7.2"
   },
   "name": "pelouse",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "keywords": [
     "functional programming",
     "monad",
@@ -13,7 +13,7 @@
     "typescript"
   ],
   "description": "Pelouse is a micro-library to allow the use of Monads in your TS project",
-  "main": "dist/pelouse.js",
+  "main": "dist/index.js",
   "scripts": {
     "build": "tsc"
   },

@@ -1,17 +1,18 @@
 {
     "compilerOptions": {
-      "target": "ES6",                       // Définit la version cible du code JS
-      "module": "commonjs",                   // Utilise le module CommonJS
-      "outDir": "./dist",                     // Place le code compilé dans le dossier dist
-      "rootDir": "./",                        // Définit la racine du projet
-      "strict": true,                         // Active toutes les vérifications strictes
-      "esModuleInterop": true,                // Assure une compatibilité avec les modules ES
-      "skipLibCheck": true                    // Ignore la vérification des types des fichiers de bibliothèque
+      "target": "ES6",                       
+      "module": "commonjs",                  
+            "outDir": "./dist",                     
+      "rootDir": "./",                        
+      "strict": true,                         
+      "esModuleInterop": true,                
+      "skipLibCheck": true                    
     },
     "include": [
-      "pelouse.ts"                           // Inclut ton fichier TypeScript
+      "index.ts",
+      "pelouse.ts"                           
     ],
     "exclude": [
-      "node_modules"                          // Exclut le dossier node_modules
+      "node_modules"                          
     ]
   }
